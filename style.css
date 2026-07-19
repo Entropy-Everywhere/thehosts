@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* write css code here */
+
+/* 
+=== Color Pallette
+#0d1b2a <- Background - Main
+#1b263b <- Buttons - Hover
+#415a77 <- Buttons
+#e0e1dd <- Text / Links
+#e76f51 <- Borders?
+*/
+
+body {
+  background-color: #0d1b2a;
+  color: #e0e0e0;
+  text-align: center;
+}
+
+.btn {
+  background-color: #415a77;
+  border: 2px solid #e76f51;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: #1b263b;
+  border: 2px solid #e76f51; 
+  padding: 5px;
+  border-radius: 20px; 
+}
+
+:any-link {
+  color: #e0e0e0;
+  text-decoration: none;
+}
+
+.seperator {
+  border: 2px dashed #e76f51;
+
+}
+
+.card {
+  background-color: #1b263b;
+  border: 2px solid #e76f51;
+  padding: 5px;
+  border-radius: 20px; 
+}
